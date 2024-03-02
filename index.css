@@ -52,6 +52,7 @@ label {
   display: block;
   margin-bottom: 8px;
   color: #495057;
+  font-size: 20px;
 }
 
 input,
@@ -62,6 +63,11 @@ select {
   box-sizing: border-box;
   border: 1px solid #ced4da;
   border-radius: 5px;
+  font-size: 20px;
+}
+.dollar {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 button {
@@ -94,8 +100,10 @@ button:hover {
 .table th,
 .table td {
   padding: 12px;
-  text-align: left;
+  text-align: center;
   border-bottom: 1px solid #ddd;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .table th {
@@ -110,7 +118,7 @@ button:hover {
   border-top-left-radius: 8%;
   border-bottom-right-radius: 8%;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 15%;
+  margin-top: 2%;
   padding: 20px;
 }
 
