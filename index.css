@@ -1,0 +1,207 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.container h1 {
+  text-align: center;
+  padding: 2% 0;
+  font-weight: 600;
+}
+.track {
+  color: #007bff;
+}
+
+.forms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #495057;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.table-container {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.summary-section {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  /* border-radius: 10px; */
+  border-top-left-radius: 8%;
+  border-bottom-right-radius: 8%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 15%;
+  padding: 20px;
+}
+
+.summary-icon {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.summary-text {
+  font-size: 20px;
+  font-weight: bold;
+  color: #343a40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.summary-text span {
+  margin-left: 10px;
+}
+
+.profile-button {
+  position: relative;
+  display: inline-block;
+}
+
+.profile-popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0; /* Adjust the left property to 0 to ensure it opens towards the right */
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  min-width: 200px; /* Adjust the minimum width as needed */
+  z-index: 1001; /* Ensure the popup is above the .head */
+}
+
+.profile-popup a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.profile-popup a:hover {
+  background-color: #f0f0f0;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  color: #999;
+}
+
+@media (max-width: 768px) {
+  .card,
+  .table-container,
+  .summary-section {
+    margin-top: 10px;
+  }
+}
+
+/* @media (max-width: 425px) {
+  .footer {
+    display: block;
+  }
+  #loginBtn,
+  #signupBtn,
+  .register {
+    display: block;
+  }
+} */
+
+/* Add these styles to your existing styles or in a new style block */
+.chart-container {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+canvas {
+  width: 200px;
+  height: 200px;
+}
+
+/* Add your existing styles here */
+
+button {
+  cursor: pointer;
+  padding: 10px;
+}
